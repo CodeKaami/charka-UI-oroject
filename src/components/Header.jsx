@@ -8,7 +8,7 @@ const Header = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <>
-            <Button pos={'fixed'} top={'4'} left={'4'} colorScheme="purple" p={'0'} h={'10'} width={'10'} borderRadius={'full'} onClick={onOpen}>
+            <Button pos={'fixed'} top={'4'} left={'4'} colorScheme="purple" p={'0'} h={'10'} width={'10'} borderRadius={'full'} onClick={onOpen}  zIndex={"overlay"}>
                 <BiMenuAltLeft size={'20'} />
             </Button>
 
